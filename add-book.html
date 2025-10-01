@@ -89,25 +89,27 @@
                             aria-label="Inserisci il codice ISBN#">
                     </div>
                     <!--/infobook-->
-                    <hr>
-                    <div>
-                        <label for="note" class="form-label"><strong>Note</strong></label>
-                        <textarea class="form-control" id="notes" name="note" rows="3"
-                            placeholder="Inserisci eventuali note sul libro"></textarea>
+                    <div class="col">
+                        <hr>
+                        <div class="mb-3">
+                            <label for="note" class="form-label"><strong>Note</strong></label>
+                            <textarea class="form-control" id="notes" name="note" rows="3"
+                                placeholder="Inserisci eventuali note sul libro"></textarea>
+                        </div>
+                        <!--/notes-->
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="disponibileDigitale"
+                                name="disponibileDigitale">
+                            <label class="form-check-label" for="disponibileDigitale">
+                                Disponibile anche in digitale
+                            </label>
+                        </div>
+                        <!--/input-->
+                        <div class="col-12 mb-3">
+                            <button class="btn btn-primary" type="submit">Aggiungi libro</button>
+                        </div>
+                        <!--/button-->
                     </div>
-                    <!--/notes-->
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="disponibileDigitale"
-                            name="disponibileDigitale">
-                        <label class="form-check-label" for="disponibileDigitale">
-                            Disponibile anche in digitale
-                        </label>
-                    </div>
-                    <!--/input-->
-                    <div class="col-12 mb-3">
-                        <button class="btn btn-primary" type="submit">Aggiungi libro</button>
-                    </div>
-                    <!--/button-->
                 </div>
                 <!--/row-->
             </form>
